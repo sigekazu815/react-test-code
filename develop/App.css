@@ -1,0 +1,47 @@
+.App-header {
+	background-color: #122;
+	color: #ddd;
+	min-width: 400px;
+	width: 100%;
+	height: 20px;
+	padding: 0.5em;
+}
+
+.App-title {
+	margin-left: 5%;
+	font-size: 15px;
+}
+
+.App-body {
+	z-index: 1;
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	top: 36px;
+	left: 0px;
+}
+.tweetProp {
+	font-size: 0.7em;
+	margin-top: 3px;
+	margin-bottom: 3px;
+}
+.tweet {
+	background-color: #2277bb;
+	color: #ddffff;
+	border-radius: 10px;
+	margin: 5px;
+	padding: 5px;
+}
+
+.timeline {
+	background-color: rgba(120, 120, 120, 0.5);
+	z-index: 2;
+	position: absolute;
+	overflow-y: scroll;
+	float: right;
+	right: 5px;
+	top:5px;
+	width: 30%;
+	min-width: 15em;
+	max-height: 70%;
+}
